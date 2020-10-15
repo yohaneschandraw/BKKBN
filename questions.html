@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BKKBN - Questions</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	
+	<!-- Web Icon -->
+    <link rel="shortcut icon" href="assets/img/logo-icon.png">
+
+    <!-- CSS Vendors -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+
+    <!-- CSS Assets -->
+    <style type="text/css">
+        @import url("assets/css/base.css");
+        @import url("assets/css/modules.css");
+        @import url("assets/css/layouts.css");
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="section--navigation">
+            <div class="navbar-top">
+                <div class="container">
+                    <marquee behavior="scroll" direction="horizontal"><!-- main marquee -->
+                        <div class="marquee-inner">
+                            <div class="content-marquee"><!-- div to grop all elements -->
+                                <div class="row"><!-- bootstrap magic -->
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                        <h4>Lorem ipsum</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg" id="myNavbar">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicNav6" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="toggler-icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="basicNav6">
+                        <div class="nav__left">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/img/logo.png" class="img-fluid" alt="logo">
+                            </a>
+                        </div>
+    
+                        <div class="nav__right ml-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sikepo.html">Si KEPO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="games.html">Games</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="questions.html">Pertanyaan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="data.html">Data</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="section--question__header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1>Pertanyaan</h1>
+                    </div>
+
+                    <div class="col-12 col-md-6 text-md-right mt-3 mt-md-0">
+                        <input type="text" placeholder="Search.." class="search-bar">
+
+                        <br/>
+
+                        <button type="button" class="btn btn--primary mt-4" data-toggle="modal" data-target="#modalForm">
+                            Ajukan Pertanyaan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--question__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">  
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingOneH" href="#collapseOneH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">1. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseOneH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingTwoH" href="#collapseTwoH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">2. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseTwoH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingThreeH" href="#collapseThreeH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">3. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseThreeH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingFourH" href="#collapseFourH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">4. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseFourH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingFiveH" href="#collapseFiveH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">5. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseFiveH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingSixH" href="#collapseSixH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">6. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseSixH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingSevenH" href="#collapseSevenH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">7. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseSevenH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingEightH" href="#collapseEightH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">8. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseEightH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingNineH" href="#collapseNineH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">9. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseNineH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion indicator-plus-before round-indicator" id="accordionH" aria-multiselectable="true">
+                            <div class="card card-accordion">
+                                <div class="card-header collapsed" role="tab" id="headingTenH" href="#collapseTenH" data-toggle="collapse" data-parent="#accordionH" aria-expanded="false" aria-controls="collapseOneH">
+                                    <a class="card-title">10. Lorem ipsum dolor sit amet?</a>
+                                </div>
+                                <div class="collapse" id="collapseTenH" role="tabpanel">
+                                    <div class="card-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                            aliqua
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="d-flex justify-content-center">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                        <!-- <div class="tabs-question">
+                            <input id="tab1" type="radio" name="tabs" class="tabs-input" checked>
+                            <label for="tab1" class="tabs-label">
+                                Daftar Pertanyaan
+                            </label>
+
+                            <input id="tab2" type="radio" name="tabs" class="tabs-input">
+                            <label for="tab2" class="tabs-label">
+                                Form Pertanyaan
+                            </label>
+
+                            <div class="content">
+                                <div id="content1">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table--question">
+                                            <thead class="thead--primary">
+                                                <tr>
+                                                    <th scope="col">Pertanyaan</th>
+                                                    <th scope="col">Aksi</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                        aliqua?
+                                                    </td>
+                                                    <td>
+                                                        <a href="answer.html">Lihat Jawaban</a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                        aliqua?
+                                                    </td>
+                                                    <td>
+                                                        <a href="answer.html">Lihat Jawaban</a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                        aliqua?
+                                                    </td>
+                                                    <td>
+                                                        <a href="answer.html">Lihat Jawaban</a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                        aliqua?
+                                                    </td>
+                                                    <td>
+                                                        <a href="answer.html">Lihat Jawaban</a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                                        aliqua?
+                                                    </td>
+                                                    <td>
+                                                        <a href="answer.html">Lihat Jawaban</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div id="content2">
+                                    <form class="form-question">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="fname">Nama Lengkap</label>
+                                                        <input type="text" class="form-control" id="fname" placeholder="Nama Lengkap">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="category">Kategori Pengunjung</label>
+                                                        <input type="text" class="form-control" id="category" placeholder="Kategori Pengunjung">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="group">Kelompok</label>
+                                                        <select class="form-control" id="group">
+                                                            <option selected disabled>Pilih Kelompok</option>
+                                                            <option value="">Kelompok 1</option>
+                                                            <option value="">Kelompok 2</option>
+                                                        </select>
+                                                    </div>
+            
+                                                    <div class="form-group">
+                                                        <label for="address">Alamat</label>
+                                                        <textarea class="form-control" id="address" placeholder="Alamat" rows="3"></textarea>
+                                                    </div>
+            
+                                                    <div class="form-group">
+                                                        <label for="village">Kelurahan/Desa</label>
+                                                        <select class="form-control" id="village">
+                                                            <option selected disabled>Pilih Desa</option>
+                                                            <option value="">Desa 1</option>
+                                                            <option value="">Desa 2</option>
+                                                            <option value="">Desa 3</option>
+                                                            <option value="">Desa 4</option>
+                                                        </select>
+                                                    </div>
+            
+                                                    <div class="form-group">
+                                                        <label for="subDistrict">Kecamatan</label>
+                                                        <select class="form-control" id="subDistrict">
+                                                            <option selected disabled>Pilih Kecamatan</option>
+                                                            <option value="">Kecamatan 1</option>
+                                                            <option value="">Kecamatan 2</option>
+                                                            <option value="">Kecamatan 3</option>
+                                                            <option value="">Kecamatan 4</option>
+                                                        </select>
+                                                    </div>
+            
+                                                    <div class="form-group">
+                                                        <label for="city">Kota/Kabupaten</label>
+                                                        <select class="form-control" id="city">
+                                                            <option selected disabled>Pilih Kabupaten</option>
+                                                            <option value="">Kota 1</option>
+                                                            <option value="">Kota 2</option>
+                                                            <option value="">Kota 3</option>
+                                                            <option value="">Kota 4</option>
+                                                            <option value="">Kota 5</option>
+                                                            <option value="">Kota 6</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="question">Pertanyaan</label>
+                                                        <textarea class="form-control" id="question" placeholder="Pertanyaan" rows="3"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="date">Tanggal</label>
+                                                        <input type="date" class="form-control" id="data" placeholder="Tanggal">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 text-right">
+                                                    <button type="submit" class="btn btn--primary">Kirim Pertanyaan</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>    
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Box Data -->
+        <div class="modal modal--form-data fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitle">Informasi Pengunjung</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form class="form-question">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 px-0">
+                                        <div class="form-group">
+                                            <label for="fname">Nama Lengkap</label>
+                                            <input type="text" class="form-control" id="fname" placeholder="Nama Lengkap">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="category">Kategori Pengunjung</label>
+                                            <input type="text" class="form-control" id="category" placeholder="Kategori Pengunjung">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="group">Kelompok</label>
+                                            <select class="form-control" id="group">
+                                                <option selected disabled>Pilih Kelompok</option>
+                                                <option value="">Kelompok 1</option>
+                                                <option value="">Kelompok 2</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="address">Alamat</label>
+                                            <textarea class="form-control" id="address" placeholder="Alamat" rows="3"></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="village">Kelurahan/Desa</label>
+                                            <select class="form-control" id="village">
+                                                <option selected disabled>Pilih Desa</option>
+                                                <option value="">Desa 1</option>
+                                                <option value="">Desa 2</option>
+                                                <option value="">Desa 3</option>
+                                                <option value="">Desa 4</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="subDistrict">Kecamatan</label>
+                                            <select class="form-control" id="subDistrict">
+                                                <option selected disabled>Pilih Kecamatan</option>
+                                                <option value="">Kecamatan 1</option>
+                                                <option value="">Kecamatan 2</option>
+                                                <option value="">Kecamatan 3</option>
+                                                <option value="">Kecamatan 4</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="city">Kota/Kabupaten</label>
+                                            <select class="form-control" id="city">
+                                                <option selected disabled>Pilih Kabupaten</option>
+                                                <option value="">Kota 1</option>
+                                                <option value="">Kota 2</option>
+                                                <option value="">Kota 3</option>
+                                                <option value="">Kota 4</option>
+                                                <option value="">Kota 5</option>
+                                                <option value="">Kota 6</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="question">Pertanyaan</label>
+                                            <textarea class="form-control" id="question" placeholder="Pertanyaan" rows="3"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <label for="date">Tanggal</label>
+                                            <input type="date" class="form-control" id="data" placeholder="Tanggal">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 text-right">
+                                        <button type="submit" class="btn btn--primary">Simpan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-xs-12 col-md-4 mt-4">
+                        <h5>Important Links</h5>
+                        <ul>
+                            <li>
+                                <a href="sikepo.html">Si KEPO Materi</a>
+                            </li>
+                            <li>
+                                <a href="games.html">Games</a>
+                            </li>
+                            <li>
+                                <a href="data.html">Data</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 plg-md-0 mt-4">
+                        <h5>Customer Care</h5>
+                        <ul>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="terms.html">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="policy.html">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 plg-md-0 mt-4">
+                        <h5>Contact Us</h5>
+                        <p>
+                            Jl.Permata No. 1, Halim Perdanakusuma
+                            <br/> Jakarta Timur, 13650
+                            <br/> 021-8098018
+                        </p>
+
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row pt-4 copyright-row">
+                    <div class="col-12">
+                        <h6>Si KEPO © 2020. All Rights Reserved.</h6>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- JS Vendors -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- JS Assets -->
+    <script src="assets/js/sticky-navbar.js"></script>
+    <script src="assets/js/accordion.js"></script>
+</body>
+</html>

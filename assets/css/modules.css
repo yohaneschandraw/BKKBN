@@ -1,0 +1,1324 @@
+/* SECTION */
+section {
+    padding: 80px 0;
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+/* Section Nav */
+.section--navigation {
+  padding: 0;
+}
+
+/* Section Header */
+.section--header {
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.section--header img {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .section--header {
+        padding-top: 50px;
+    }
+}
+
+
+
+/* Section Feature */
+.section--features {
+
+}
+
+
+
+
+/* Section Top About */
+.section--top-about {
+    background-color: #F4F4F4;
+    padding: 100px 0;
+}
+
+.section--top-about h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0F274B;
+}
+
+.section--top-about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F274B;
+}
+
+@media screen and (max-width: 767px) {
+    .section--top-about {
+        padding: 80px 0;
+    }
+    
+    .section--top-about h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--top-about {
+        padding: 50px 0;
+    }
+    
+    .section--top-about h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* Section CTA */
+.section--testimonial h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0F274B;
+}
+
+.section--testimonial p {
+    color: #0F274B;
+}
+
+@media screen and (max-width: 575px) {
+    .section--testimonial h1 {
+        font-size: 24px;
+    }
+}
+
+.testimonial {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonial--card {
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+}
+
+.testimonial--card__content blockquote {
+    margin: 0;
+    display: block;
+    position: relative;
+    padding: 30px 0 65px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    height: auto;
+}
+
+.testimonial--card__content blockquote:before {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+    top: 15px;
+    left: 0;
+}
+
+.testimonial--card__content blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+    content: "\201D";
+    right: 0;
+    bottom: 35px;
+}
+
+.testimonial--card__footer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.testimonial--card__footer .author {
+    text-transform: uppercase;
+}
+
+.testimonial--card__footer .author h5 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.testimonial--card__footer .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+}
+
+
+
+
+
+
+/* Section Si KEPO */
+.section--sikepo__header h1 {
+    color: #0F274B;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section--sikepo__content {
+    padding: 0 0 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .section--sikepo__header h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--sikepo__header h1 {
+        font-size: 24px;
+    }
+}
+
+.section--sikepo__content--detail {
+    padding: 0 0 60px;
+}
+
+
+
+
+/* Section Si KEPO Detail */
+.section--sikepo__header--detail img {
+    border-radius: 10px;
+}
+
+.section--sikepo__content--detail h3 {
+    font-weight: 600;
+    color: #0F274B;
+}
+
+.section--sikepo__content--detail h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #A4A4A4;
+}
+
+.section--sikepo__content--detail h5 span {
+    font-weight: 500;
+    color: #FFB508;
+}
+
+.section--sikepo__content--detail p {
+    font-weight: 400;
+    color: #A4A4A4;
+}
+
+@media screen and (max-width: 767px) {
+    .section--sikepo__content--detail h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--sikepo__content--detail h3 {
+        font-size: 22px;
+    }
+}
+
+
+
+/* Section Games*/
+.section--games__header h1 {
+    color: #0F274B;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section--games__content {
+    padding: 0 0 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .section--games__header h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--games__header h1 {
+        font-size: 24px;
+    }
+}
+
+.section--games__content--detail {
+    padding: 0 0 60px;
+}
+
+
+
+/* Section Question */
+.section--question__header h1 {
+    color: #0F274B;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section--question__content {
+    padding: 0 0 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .section--question__header h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--question__header h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+/* Section Answer */
+.section--answer__header h1 {
+    color: #0F274B;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section--answer__content {
+    padding: 0 0 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .section--answer__header h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section-answern__header h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+/* Section Data */
+.section--data__header h1 {
+    color: #0F274B;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.section--data__content {
+    padding: 0 0 80px;
+}
+
+.section--data-features {
+    padding-top: 0;
+}
+
+.section--data-map h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+
+
+/* Section Table */
+.section--table-poktan h2,
+.section--table-faskes h2 {
+    color: #0F274B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .section--table-poktan h2,
+    .section--table-faskes h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--table-poktan h2,
+    .section--table-faskes h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+/* Section Activity */
+.section--activity h2 {
+    color: #0F274B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .section--activity h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--activity h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+/* Section Charts */
+.section--charts h2 {
+    color: #0F274B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section--charts h5 {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .section--charts h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section--charts h2 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+/* TEXT */
+.text--primary {
+    color: #0F274B !important;
+}
+
+.text--secondary {
+    color: #FFB508 !important;
+}
+
+.text--light-blue {
+    color: #295aa4 !important;
+}
+
+.text--green {
+    color: #1a9381 !important;
+}
+
+
+
+
+
+
+/* BUTTONS */
+/* Button Primary */
+.btn--primary {
+    background-color: #0F274B;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    padding: 8px 40px;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    background-color: white;
+    color: #0F274B;
+    border: 1px solid #0F274B;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 575px) {
+    .btn--primary {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Button Secondary */
+.btn--secondary {
+    background-color: #D2D2D2;
+    color: #0F274B;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    padding: 8px 40px;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+    background-color: white;
+    color: #0F274B;
+    border: 1px solid #0F274B;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 575px) {
+    .btn--secondary {
+        font-size: 14px;
+    }
+}
+
+
+
+/* COLLAPSIBLE */
+.accordion .card-header {
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion.indicator-plus .card-header:after {
+    font-family: 'Material Icons';
+    content: "\e316";
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.accordion.indicator-plus .card-header.collapsed:after {
+    content: "\e316";
+}
+
+.accordion.indicator-plus-before.round-indicator .card-header:before {
+    font-family: 'Material Icons';
+    font-size: 14px;
+    content: "\e316";
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: #0F274B;
+}
+
+.accordion.indicator-plus-before.round-indicator .card-header.collapsed:before {
+    content: "\e313";
+    color: #0F274B;
+}
+
+.accordion.indicator-plus-before .card-header:before {
+    font-family: 'Material Icons';
+    content: "\e314";
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.accordion.indicator-plus-before .card-header.collapsed:before {
+    content: "\e314";
+}
+
+.accordion.indicator-chevron .card-header:after {
+    font-family: 'Material Icons';
+    content: "\e314";
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.accordion.indicator-chevron .card-header.collapsed:after {
+    content: "\e314";
+}
+
+.accordion.background-none [class^="card-accrodion"] {
+    background: transparent;
+}
+
+.card.card-accordion {
+    border-radius: 10px !important;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card.card-accordion .card-header {
+    background-color: white;
+    padding: 20px;
+}
+
+.card-header a {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #0F274B !important;
+}
+ 
+.collapse .card-body {
+    padding: 20px;
+}
+  
+.collapse .card:last-of-type {
+    border-bottom: 1px solid #ddd !important;
+}
+
+
+
+
+
+/* CARDS */
+
+.card--global {
+    background-color: white;
+    padding: 40px 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.card--global p {
+    font-size: 16px;
+}
+
+
+
+/* Card Feature */
+.card-feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-feature--group {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-feature--group__content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color:#FFB508;
+}
+
+.card-feature--group__content h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color:#0F274B;
+}
+
+.card-feature--group__content a {
+    color: #FFB508;
+}
+
+.card-feature--group__content a:hover {
+    color: #0F274B;
+}
+
+
+/* Card Sikepo */
+.card--sikepo {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.card--sikepo .card--sikepo__frame img {
+    border-radius: 5px;
+}
+
+.card--sikepo .card--sikepo__content h3 {
+    color: #0F274B;
+    font-weight: 600;
+}
+
+.card--sikepo .card--sikepo__content p {
+    font-weight: 400;
+    color: #A4A4A4;
+}
+
+.card--sikepo .card--sikepo__content .card--sikepo__content--info ul {
+    padding: 0;
+}
+
+.card--sikepo .card--sikepo__content .card--sikepo__content--info ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    color: #A4A4A4;
+}
+
+.card--sikepo .card--sikepo__content .card--sikepo__content--info ul li i {
+    color: #A4A4A4;
+}
+
+@media screen and (max-width: 767px) {
+    .card--sikepo .card--sikepo__content h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card--sikepo .card--sikepo__content h3 {
+        font-size: 22px;
+    }
+}
+
+
+
+/* Card Games */
+.card--games {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.card--games .card--games__frame img {
+    border-radius: 5px;
+}
+
+.card--games .card--games__content h3 {
+    color: #0F274B;
+    font-weight: 600;
+}
+
+.card--games .card--games__content p {
+    font-weight: 400;
+    color: #A4A4A4;
+}
+
+.card--games .card--games__content .card--games__content--info ul {
+    padding: 0;
+}
+
+.card--games .card--games__content .card--games__content--info ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    color: #A4A4A4;
+}
+
+.card--games .card--games__content .card--games__content--info ul li i {
+    color: #A4A4A4;
+}
+
+@media screen and (max-width: 767px) {
+    .card--games .card--games__content h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card--games .card--games__content h3 {
+        font-size: 22px;
+    }
+}
+
+
+
+/* Card Activity */
+.card-activity {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card-activity--group {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-activity--group__content {
+    text-align: left;
+}
+
+.card-activity--group__content h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color:#0F274B;
+}
+
+.card-activity--group__content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0F274B;
+}
+
+
+
+/* Card Play Games */
+.card-games__title h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+.card-games__question {
+    background-color: white;
+    padding: 30px 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.question-list p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0F274B;
+    margin-bottom: 20px;
+}
+
+.card-games__scoreboard {
+    position: sticky;
+    top: 25%;
+    right: 0;
+    background-color: white;
+    padding: 30px 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-games__scoreboard h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+.scoreboard-list {
+    padding: 8px 0;
+    border-bottom: 1px solid #0F274B;
+}
+
+.scoreboard-list p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0F274B;
+    margin-bottom: 0;
+}
+
+.scoreboard-list p span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFB508;
+    margin-bottom: 0;
+}
+
+
+
+/* Card Contact */
+.card--contact {
+    background-color: white;
+    padding: 30px 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card--contact h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card--contact p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card--contact a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+.card--contact a:hover {
+    color: #FFB508;
+    text-decoration: none;
+}
+
+.card--contact i {
+    font-size: 22px;
+}
+
+
+
+
+/* CAROUSEL */
+.carousel .carousel-inner .carousel-item .caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.carousel .carousel-inner .carousel-item .caption h3 {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+.carousel .carousel-control a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 0 12px;
+    font-size: 20px;
+}
+
+.carousel .carousel-control a.prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.carousel .carousel-control a.next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.carousel .carousel-control a:hover {
+    color: #FFB508;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel .carousel-inner .carousel-item .caption h3 {
+        font-size: 20px;
+    }
+
+    .carousel .carousel-control a {
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* TABS */
+.tabs-question {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.tabs-question input.tabs-input {
+    display: none;
+}
+
+.tabs-question input.tabs-input:checked {
+    border: 1px solid #000;
+    border-width: 1px 1px 0 1px;
+}
+
+.tabs-question label.tabs-label {
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    margin: 0;
+    width: 25%;
+    /* =100/tabs number */
+    border-bottom: 1px solid #0F274B;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B4B4B4;
+    letter-spacing: 0.05em;
+}
+
+.tabs-question label.tabs-label:hover {
+    cursor: pointer;
+}
+
+.tabs-question input.tabs-input:checked + label.tabs-label {
+    border-radius: 4px 4px 0 0;
+    background-color: #0F274B;
+    color: white;
+}
+
+.tabs-question #tab1:checked ~ .content #content1,
+.tabs-question #tab2:checked ~ .content #content2 {
+    display: block;
+}
+
+.tabs-question .content > div {
+    display: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.tabs-question .content > div img {
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.tabs-question .content > div p {
+    font-size: 14px;
+}
+  
+@media screen and (max-width: 767px) {
+    .tabs-question label.tabs-label {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        width: 45%;
+        /* =100/tabs number */
+        font-size: 14px;
+    }
+}
+
+
+
+/* Tabs Data */
+.tabs-data {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.tabs-data input.tabs-input {
+    display: none;
+}
+
+.tabs-data input.tabs-input:checked {
+    border: 1px solid #000;
+    border-width: 1px 1px 0 1px;
+}
+
+.tabs-data label.tabs-label {
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    margin: 0;
+    width: 20%;
+    /* =100/tabs number */
+    /* border-bottom: 1px solid #0F274B; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B4B4B4;
+    letter-spacing: 0.05em;
+}
+
+.tabs-data label.tabs-label:hover {
+    cursor: pointer;
+}
+
+.tabs-data input.tabs-input:checked + label.tabs-label {
+    border-radius: 4px 4px 0 0;
+    background-color: #0F274B;
+    color: white;
+}
+
+.tabs-data #tab1:checked ~ .content #content1,
+.tabs-data #tab2:checked ~ .content #content2 {
+    display: block;
+}
+
+.tabs-data .content > div {
+    display: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.tabs-data .content > div img {
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.tabs-data .content > div p {
+    font-size: 14px;
+}
+  
+@media screen and (max-width: 767px) {
+    .tabs-data label.tabs-label {
+        padding: 10px 0 10px 0;
+        margin: 0;
+        width: 45%;
+        /* =100/tabs number */
+        font-size: 14px;
+    }
+}
+
+  
+
+
+
+/* TABLES */
+/* Table question */
+.thead--primary {
+    background-color: #0F274B;
+}
+
+.thead--primary th {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-top: none;
+    text-align: center;
+}
+
+.table--question td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table--question td a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+
+/* Table data */
+.table--data td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+/* FORMS */
+.form-question {
+    padding-top: 40px;
+}
+
+.form-question label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0F274B;
+}
+
+.form-question input,
+.form-question select,
+.form-question textarea {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A4A4A4;
+}
+
+.form-question input:active,
+.form-question input:focus {
+    box-shadow: none;
+    border: 1px solid #0F274B;
+}
+
+.form-question select:focus {
+    box-shadow: none;
+    border: 1px solid #0F274B;
+}
+
+.form-question textarea:focus {
+    box-shadow: none;
+    border: 1px solid #0F274B;
+}
+
+.form-question .form-group {
+    margin-bottom: 25px;
+}
+
+
+
+
+/* MODALS */
+.modal--form-data .modal-content {
+    border-radius: 15px;
+}
+
+.modal--form-data .modal-header {
+    background-color: #0F274B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px 15px;
+}
+
+.modal--form-data .modal-header h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.modal--form-data .modal-header button span i {
+    color: white;
+    border: none;
+    box-shadow: none;
+    margin-right: 20px;
+}
+
+.modal--form-data .modal-body {
+    padding-bottom: 40px;
+}
+
+
+
+
+/* EXTRAS */
+
+/* Search bar */
+input.search-bar {
+    padding: 8px 15px;
+    border: 1px solid #A4A4A4;
+    border-radius: 6px;
+    width: 300px;
+    max-width: 100%;
+}
+
+input.search-bar:focus,
+input.search-bar:active {
+    border: 1px solid #0F274B;
+}
+
+.search-container {
+	position: relative;
+	display: inline-block;
+	margin: 4px 2px;
+	height: 50px;
+	width: 50px;
+	vertical-align: bottom;
+}
+
+.searchbutton {
+	position: absolute;
+	font-size: 20px;
+	width: 100%;
+	margin: 0;
+    padding: 6px 10px;
+    color: white;
+}
+
+.search:focus + .searchbutton {
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	color: white;
+}
+
+.search {
+	position: absolute;
+	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+    background-color: white;
+    border-radius: 5px;
+	outline: none;
+	border: none;
+	padding: 0;
+	width: 0;
+	height: 100%;
+    z-index: 10;
+    font-size: 16px;
+    font-weight: 500;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+    width: 300px; /* Bar width+1px */
+    max-width: 300px;
+	padding: 0 16px 0 0;
+}
+
+.expandright {
+	left: auto;
+	right: 49px; /* Button width-1px */
+}
+
+.expandright:focus {
+	padding: 0 0 0 16px;
+}
+
+@media screen and (max-width: 992px) {
+    .expandright {
+        right: auto;
+        left: 49px; /* Button width-1px */
+    }
+}
+
+
+
+
+/* Box */
+.question-box,
+.answer-box {
+    padding: 30px 15px;
+    border: 1px solid #0F274B;
+    min-height: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+/* Marquee */
+marquee {
+    width: 100%;
+}
+  
+.marquee-inner {
+    width: 1000%;
+}
+
+.marquee-inner h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+/* Pagination */
+.pagination {
+    padding: 30px 0;
+}
+
+.pagination li {
+    border-color: 1px solid #0F274B;
+}
+
+.pagination li a {
+    color: #0F274B;
+    font-weight: 600;
+}
+
+.pagination li a:hover {
+    background-color: #0F274B;
+    color: white;
+}
